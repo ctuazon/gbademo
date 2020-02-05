@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /maintenance/
+Disallow: /images/
+Disallow: /css/
+Disallow: /sitewide/

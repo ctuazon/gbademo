@@ -1,0 +1,306 @@
+a 
+{
+	text-decoration:none;
+	color: black;
+}
+
+body {    
+    margin: 0;
+    padding: 0;
+}
+header {
+	text-align:center
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	
+	width: 100%;
+}
+
+.logo {
+	width: auto;
+	height: auto;
+
+}
+
+.sociallogo {
+	width: 40%;
+}
+section {
+	width: 50%;
+}
+.rightsection {
+	width: 30%;
+}
+
+
+.maincontent, .subcontent {
+		background-color: #FFFFFF;
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+	border-style: solid;
+  
+	border-width: 2px;
+
+	  border-color: #CCCCCC;
+	  
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	background-color: #FFFFFF;
+}
+
+.navlinks {
+	padding: 15px;
+}
+
+h1
+{
+	font-size:32px;
+	margin: 0
+	
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	
+	font-size: 12px;
+}
+.maincontent{
+	border-top: 2px solid Red;
+}
+
+.maincontent .Text img
+{
+	/* This Centers an image */
+	display:block;
+    margin:auto;
+	
+}
+.maincontent .Text iframe
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	
+}
+.maincontent .Social img
+{
+	margin: 4px;
+	width: 60px;
+	height: 60px;
+	
+}
+
+.maincontent .Text .Comic 
+{
+	/* This maintains proportional sizes*/
+	width:350px; 
+    height: auto;
+}
+
+
+a.PaginationButton 
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	text-decoration : 			none;
+	padding : 					8px;
+	background-color: 			#ECECEC;
+	  
+	-moz-border-radius: 		8px;
+	border-radius: 				8px;
+		
+	color: 						#767676;
+
+	
+}
+
+.PaginationBox
+{
+	
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+
+	
+	text-align: center;
+	
+	
+}
+
+iframe
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	width: 100%;
+	
+}
+
+@media only screen and (max-width: 1000px) {
+  .maincontent{
+    
+  }
+  
+	section 
+	{
+		width: 100%;
+	}
+	.rightsection {
+		width: 100%;
+		display: none;
+	}
+	
+	main {
+		display: flex;
+		justify-content: center;
+		flex-direction:  column;
+	}
+	
+	.navlinks {
+	padding: 12px;
+	font-size: 14px;
+	}
+	.logo {
+	width: 50%;
+	
+
+	}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .maincontent{
+    
+  }
+  
+	section 
+	{
+		width: 100%;
+	}
+	.rightsection {
+		width: 100%;
+	}
+	
+	h1
+	{
+		font-size:18px;
+		margin: 0
+	
+	}
+
+	h2 {
+		margin: 0 0 10px 0;
+		font-size: 8px;
+	}
+	.maincontent
+	{
+		margin: 12px 0px 12px 0px;
+	}
+	.maincontent .Text
+	{
+		font-size: 14px;
+	
+	}
+}
+
+
+/*For the comic div*/
+.ComicTableOfContents
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	  
+	  /*
+	-moz-border-radius: 		8px;
+	border-radius: 				8px;
+	*/
+		
+	color: 						#000000;
+	
+	background-color: #FFFFFF;
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+	border-top: 2px solid Green;
+
+	
+}
+/*For the content table*/
+.ComicTableOfContents .Heading /* Title Archive*/
+{
+	text-align:			center;
+	font-size:			32px;
+}
+.ComicTableOfContents .MainTableOfContents
+{
+	width:				100%;
+	
+
+
+}
+.ComicTableOfContents .Number
+{
+	width:				20%;
+	padding:			5px;
+}
+.ComicTableOfContents .Title /* Title in table*/
+{
+	width:				50%;
+	padding:			5px;
+	
+
+}
+.ComicTableOfContents .DatePublished
+{
+	width:				30%;
+	padding:			5px;
+	text-align: center;
+}
+
+

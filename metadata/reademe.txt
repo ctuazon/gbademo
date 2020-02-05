@@ -1,0 +1,2 @@
+blog, comic, and log are used by the pagination script to reduce the need of having to fire an SQL query
+latestcomic is used by the navigaton bar to determine the latest comic, again to save a query

@@ -1,0 +1,242 @@
+a 
+{
+	text-decoration:none;
+	color: black;
+}
+
+body {    
+    margin: 0;
+    padding: 0;
+}
+
+
+.LeftContainer
+{
+	width: 60%;
+}
+
+.SideContent
+{
+	width: 40%;
+}
+
+
+
+/* Subcontent is the stuff that appears on the side of the page*/
+.MainContent, .SubContent
+{
+	background-color: #FFFFFF;
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+	border-style: solid;
+    border-color: #CCCCCC;
+	border-width: 2px;
+	border-top: 2px solid Red;
+}
+
+.LeftContainer .MainContent .Heading
+{
+	font-size:32px;
+	
+}
+
+.LeftContainer .MainContent .Date
+{
+	font-size:12px;
+	
+	/* This provides spacing between Date and Text */
+	margin-bottom:20px;
+}
+
+.LeftContainer .MainContent .Text
+{
+	font-size:18px;
+}
+
+.LeftContainer .MainContent img
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	
+}
+
+.SubContent
+{
+	border-top: 1px solid #CCCCCC;
+}
+.SubContent .Heading
+{
+	font-size:26px;
+	margin-bottom:15px;
+	
+}
+.SubContent .Text img
+{
+	/* This Centers an image */
+	display:block;
+    margin:auto;
+	
+}
+.SubContent .Text iframe
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	
+}
+.SubContent .Social img
+{
+	margin: 4px;
+	width: 60px;
+	height: 60px;
+	
+}
+
+.SubContent .Text .Comic 
+{
+	/* This maintains proportional sizes*/
+	width:350px; 
+    height: auto;
+}
+
+/*Begin Footer*/
+.Footer
+{
+	width:100%;
+	height:100%;
+}
+.Copyright
+{
+	text-align: center;
+	
+}
+
+a.PaginationButton 
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	text-decoration : 			none;
+	padding : 					8px;
+	background-color: 			#ECECEC;
+	  
+	-moz-border-radius: 		8px;
+	border-radius: 				8px;
+		
+	color: 						#767676;
+
+	
+}
+
+.PaginationBox
+{
+	
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+
+	
+	text-align: center;
+	
+	
+}
+
+iframe
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	
+}
+
+
+/*For the comic div*/
+.ComicTableOfContents
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	  
+	  /*
+	-moz-border-radius: 		8px;
+	border-radius: 				8px;
+	*/
+		
+	color: 						#000000;
+	
+	background-color: #FFFFFF;
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+	border-top: 2px solid Green;
+
+	
+}
+/*For the content table*/
+.ComicTableOfContents .Heading /* Title Archive*/
+{
+	text-align:			center;
+	font-size:			32px;
+}
+.ComicTableOfContents .MainTableOfContents
+{
+	width:				100%;
+	
+
+
+}
+.ComicTableOfContents .Number
+{
+	width:				20%;
+	padding:			5px;
+}
+.ComicTableOfContents .Title /* Title in table*/
+{
+	width:				50%;
+	padding:			5px;
+	
+
+}
+.ComicTableOfContents .DatePublished
+{
+	width:				30%;
+	padding:			5px;
+	text-align: center;
+}
+
+

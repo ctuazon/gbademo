@@ -1,0 +1,233 @@
+body
+{
+	margin: 0;
+}
+
+/* This is all related to the logo */
+.MainLogo
+{
+	background-color: #256f5c;
+}
+
+.HighlightBar
+{
+	background-color: #aa9439;
+}
+
+.MainLogo .Logo
+{
+	width: 17%;
+	height:17%;
+	
+	margin: 25px;
+	
+	float: left;
+}
+
+/* End Logo */
+
+
+.LinkHeader
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	text-decoration : 			none;
+	padding : 					1px;
+	background-color: 			#aa6339;
+	  
+	/*top-left, top-right, bottom-right and bottom-left */
+	-moz-border-radius: 		0px 20px 20px 0px;
+	border-radius: 				0px 20px 20px 0px;
+		
+	color: 						#767676;
+	
+	text-align:					center;
+	color:						#FFFFFF;
+	font-size:					32px;
+	
+	/*Top right bottom left*/
+	margin: 					5px 5px 5px -2px;
+	
+	font-family: 'Lalezar', cursive;
+}
+
+a 
+{
+	text-decoration:			none;
+	color:						black;
+}
+
+.NaviLinks
+{
+	/*Top right bottom left*/
+	margin: 					0px 0px 0px 10px;
+	
+	font-family: 'Lalezar', cursive;
+}
+
+/*Styling for the posting box*/
+.PostingHeader
+{
+	background-color: 			#d2d2d2;
+	border-style: 				solid;
+	border-color: 				#d2d2d2;
+	border-width: 				2px;
+	width:						90%;
+	
+	padding : 					5px 12px 5px 12px;
+	
+	text-align:					left;
+	
+	/*top-left, top-right, bottom-right and bottom-left */
+	-moz-border-radius: 		20px 20px 0px 0px;
+	border-radius: 				20px 20px 0px 0px;
+}
+
+.PostingContent
+{
+
+	border-style: 				solid;
+	border-color: 				#d2d2d2;
+	border-width: 				2px;
+	width:						90%;
+	
+	padding : 					12px;
+	
+	text-align:					left;
+}
+
+.TextAreaContent
+{
+
+}
+
+
+.MainContent
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	
+	margin:						20px;
+	padding : 					15px;
+	
+	text-align:					left;
+	
+	overflow: hidden; /* 1. So it can create the illusion of a table */
+}
+.MainContent .Heading
+{
+	font-weight: 				bold;
+}
+.MainContent .Date
+{
+	font-size: 					12px;
+}
+.MainContent .Edit
+{
+	font-size: 					15px;
+}
+
+.MainContent .Text 
+{
+	margin:						10px;
+	float: left;	/*2. So it can create the illusion of a table */
+
+}
+.MainContent .Text img
+{
+	padding : 					15px;
+	display:block;
+    margin:auto;
+}
+
+.MainContent .Text iframe
+{
+	/* This Centers an iframe */
+	display:block;
+    margin:auto;
+	
+}
+
+/*For the maintenance index page*/
+.ComicTableOfContents
+{
+	border-style: 				solid;
+	border-color: 				#CCCCCC;
+	border-width: 				2px;
+	  
+	  /*
+	-moz-border-radius: 		8px;
+	border-radius: 				8px;
+	*/
+		
+	color: 						#000000;
+	
+	background-color: #FFFFFF;
+	
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	margin-bottom:20px;
+	
+	/* This provides spacing for the main body overall */
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	padding-left:25px;
+	padding-right:25px;
+	
+	border-top: 2px solid #3d3175;
+
+	
+}
+
+.ComicTableOfContents .sub_header
+{
+	font-weight: bold;
+}
+.ComicTableOfContents .left
+{
+
+	width:				50%;
+	padding:			5px;
+	
+}
+
+.ComicTableOfContents .right
+{
+
+	width:				50%;
+	padding:			5px;
+	text-align:			right;
+	
+}
+
+
+.ComicTableOfContents
+{
+	width:				100%;
+}
+
+.SmallFont
+{
+	font-size: 			15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
